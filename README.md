@@ -50,7 +50,7 @@ pip install -r requirements.txt
 2. Запустите ноутбук для подготовки данных для очистки и предварительной обработки данных:
 
 ```bash
-jupyter notebook notebooks/data_preparation_and_analysis.ipynb
+python -m notebook notebooks/data_preparation_and_analysis.ipynb
 ```
 
 ### Построение моделей
@@ -58,7 +58,7 @@ jupyter notebook notebooks/data_preparation_and_analysis.ipynb
 Чтобы построить и оценить модели машинного обучения, запустите ноутбук для построения моделей:
 
 ```bash
-jupyter notebook notebooks/model_building.ipynb
+python -m notebook notebooks/model_building.ipynb
 ```
 
 ## Данные
